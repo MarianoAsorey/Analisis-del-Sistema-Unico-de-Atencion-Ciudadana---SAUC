@@ -57,20 +57,30 @@ Cantidad aproximada de registros:
 
 ## Modelo de datos
 
-El proyecto fue modelado utilizando una arquitectura **Star Schema**, separando la tabla de hechos de las dimensiones para mejorar la organizacion, mantenibilidad y rendimiento del modelo.
+El proyecto fue modelado utilizando una arquitectura **Star Schema**, separando la tabla de hechos de las dimensiones para mejorar la organización, mantenibilidad y rendimiento del modelo.
+
+### Modelo Estrella
+
+<p align="center">
+  <img src="images/modelo_de_datos.jpg" alt="Modelo de datos Star Schema" width="900">
+</p>
+
+El modelo está compuesto por una tabla de hechos (**FactSolicitudes**) y seis tablas de dimensiones, diseñadas para minimizar la redundancia, optimizar el rendimiento de las consultas y facilitar la creación de medidas DAX.
 
 ### Tabla de hechos
 
-- FactSolicitudes
+- **FactSolicitudes**: contiene cada solicitud registrada en el SAUC e integra las claves sustitutas (Surrogate Keys) de las dimensiones junto con la información geográfica utilizada en el análisis.
 
 ### Dimensiones
 
-- DimFecha
-- DimCanal
-- DimCategoria
-- DimTipo
-- DimEstado
-- DimGenero
+- **DimFecha**: análisis temporal (año, trimestre, mes y día).
+- **DimCanal**: canal de ingreso y clasificación entre canales digitales y presenciales.
+- **DimCategoria**: categoría principal de la solicitud.
+- **DimTipo**: tipo específico de solicitud.
+- **DimEstado**: estado general de la solicitud.
+- **DimGenero**: género declarado por la persona solicitante.
+
+La información geográfica (comuna, barrio, calle y coordenadas) se mantuvo en la tabla de hechos para evitar una dimensión con alta cardinalidad y mantener un modelo más simple y eficiente para el análisis.
 
 ## ETL
 
