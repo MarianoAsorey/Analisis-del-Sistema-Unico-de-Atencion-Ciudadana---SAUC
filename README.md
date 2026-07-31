@@ -125,7 +125,7 @@ El reporte se organiza en tres paginas principales:
 
 ### Dashboard Ejecutivo
 
-![Dashboard Ejecutivo](images/dashboard_principal.png)
+![Dashboard Ejecutivo](images/resumen_ejecutivo.png)
 
 ### Analisis Territorial
 
