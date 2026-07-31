@@ -1,5 +1,10 @@
-# Analisis del Sistema Unico de Atencion Ciudadana (SAUC)
-> Proyecto desarrollado con Power BI para analizar mas de 3 millones de solicitudes ciudadanas registradas por el Sistema Unico de Atencion Ciudadana (SAUC) de la Ciudad Autonoma de Buenos Aires durante el periodo 2021-2023.
+# Análisis del Sistema Único de Atención Ciudadana (SAUC)
+
+<p align="center">
+  <img src="images/collage_fotos.jpg" alt="SAUC Business Intelligence Dashboard" width="100%">
+</p>
+
+> **Proyecto desarrollado con Power BI para analizar más de 3 millones de solicitudes ciudadanas registradas por el Sistema Único de Atención Ciudadana (SAUC) de la Ciudad Autónoma de Buenos Aires durante el período 2021-2023.**
 
 ## Introduccion
 
@@ -48,7 +53,6 @@ Cantidad aproximada de registros:
 - Power Query
 - DAX
 - Modelo Estrella (Star Schema)
-- Git
 - GitHub
 
 ## Modelo de datos
