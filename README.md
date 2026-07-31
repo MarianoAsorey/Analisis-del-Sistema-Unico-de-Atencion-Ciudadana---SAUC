@@ -125,15 +125,19 @@ El reporte se organiza en tres paginas principales:
 
 ### Dashboard Ejecutivo
 
-![Dashboard Ejecutivo](images/resumen_ejecutivo.png)
+![Dashboard Ejecutivo](images/resumen_ejecutivo.jpg)
 
-### Analisis Territorial
+---
 
-![Analisis Territorial](images/dashboard_territorial.png)
+### Análisis Territorial
 
-### Canales y Digitalizacion
+![Análisis Territorial](images/analisis_territorial.jpg)
 
-![Canales y Digitalizacion](images/dashboard_canales.png)
+---
+
+### Canales y Digitalización
+
+![Canales y Digitalización](images/canales_digitalizacion.jpg)
 
 ## Autor
 
